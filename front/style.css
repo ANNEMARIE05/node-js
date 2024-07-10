@@ -1,0 +1,57 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: cursive;
+
+}
+.container{
+    width: 60%;
+    margin: 5rem auto;
+    box-shadow: 0 0 30px rgb(238, 238, 238);
+    border-radius: 10px;
+    padding: 2rem;
+  }
+  input[type=text]{
+    outline: none;
+    width: 70%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: 1px solid #DEDEDE;
+    height: 25px;
+  }
+  input[type=text]:focus{
+    border: 1px solid #DB9B19;
+  }
+  input[type=button]{
+    height: 40px;
+    border-radius: 5px;
+    width: 110px;
+    background-color: #DB9B19;
+    color: #FFF;
+    border: none;
+  }
+  .cardUsers{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .cardUsers .user{
+    padding: 1rem;
+    margin: 1rem;
+    width: 38%;
+    margin: 1rem auto;
+    background-color: #DB9B19;
+    border-radius: 10px;
+  }
+  .user p{
+    font-size: 1.2rem;
+    color: #FFF;
+    font-weight: bold;
+  }
+  span{
+    color: #FFF;
+    font-size: 2rem;
+  }
+  a{
+    text-decoration: none;
+}
